@@ -23,6 +23,16 @@ h1{
 
 }
 
-.noticiaToro p{
-    font-size: 21px;
+@media screen and (max-width: 800px){
+    .noticiaToro p{
+        font-size: 21px;
+    }
 }
+
+@media screen and (min-width: 1000px)
+{
+    .noticiaToro p{
+        font-size: 26px;
+    }
+}
+
