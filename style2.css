@@ -23,6 +23,16 @@ h1{
 
 }
 
+.logo{
+    
+    width: 200px;
+    height: auto;
+}
+
+.idkaa{
+
+}
+
 @media screen and (max-width: 800px){
     .noticiaToro p{
         font-size: 21px;
