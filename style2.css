@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(235, 227, 227);
+    margin: 0;
+}
+.container{
+    background-color: white;
+    margin: 0 10em;
+    padding: 20px 50px;
+    height: 100vh;
+
+    display: grid;
+    grid-template-columns: 0.3fr 1fr;
+}
+
+.noticiaFed{
+    padding-top: 70px;
+    padding-right: 30px;
+    
+}
+
+h1{
+    border-bottom: 1px solid black;
+
+}
+
+.noticiaToro p{
+    font-size: 21px;
+}
