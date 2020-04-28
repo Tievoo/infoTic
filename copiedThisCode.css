@@ -17,14 +17,6 @@
     text-decoration: none;
     border-bottom: 1px #408536 solid;
 }
-h1 {
-    height: 100%;
-    margin: 0;
-    font-size: 14px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 32px;
-    margin-bottom: 3px;
-}
 .entry-header {
     text-align: left;
     margin: 0 auto 50px auto;
