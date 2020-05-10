@@ -4903,7 +4903,7 @@ small {
 }
 @media only screen and (max-width: 600px) {
   .card-content p{
-    font-size: 13px;
+    font-size: 10px;
   }
 }
 
