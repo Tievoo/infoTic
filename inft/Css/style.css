@@ -6,13 +6,16 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background-color: #eeeeee;
+    background-color: #DAD9B8;
     /* font-family: 'Work Sans', sans-serif; */
-    font-family: 'Lato', sans-serif;
+    font-family: "Jost", sans-serif;
     font-weight: 300;
-    
+
 }
-.container{
+::-webkit-scrollbar {
+    display: none;
+}
+.myContainer{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: space-around;
@@ -23,7 +26,7 @@ body{
     max-height: 100px;
 } */
 header{
-    background-color:#282F36;
+    
 }
 
 header::after{
@@ -75,10 +78,10 @@ header::after{
 }
 .noticia{
     /* padding: 2rem; */
-    padding-top: 5rem;
+
     margin: 15vh 17vw;
     
-    background-color: white;
+    background-color: #EFEEDA;
     box-shadow: 10px 10px 20px 5px #585858;
     
 }
@@ -137,10 +140,7 @@ nav h2{
     font-size: 1.1em;
 }
 
-nav li:hover{
-    background-color: rgb(71, 79, 87);
-    transition: all .4s ease-in-out;
-} */
+
 
 .liThing{
     text-decoration: none;
@@ -262,14 +262,14 @@ nav li:hover{
     color: #f1f1f1;
     font-size: 20px;
     letter-spacing: 1.1px;
-    padding-top: 37px;
+    
     padding-left: 30px;
 }
 
 /* -------------DENGUE HTML-------------- */
 .noticiaGeneral{
     margin: 0 11vw 0 11vw;
-    padding-top: 10vh;
+    padding-top: 5vh;
     background-color: white;
     padding-left: 70px;
     position: absolute;
@@ -283,8 +283,6 @@ nav li:hover{
     height: auto;
 }
 .noticiaDengueMain{      
-    display: grid;
-    grid-template-columns: 2fr 0.1fr 1fr
 }
 .noticiaTexto{
     padding-right: 2vw;
@@ -321,8 +319,8 @@ nav li:hover{
 }
 .WEALTERa{
     width: 90px;
-    height: 90px;
-    padding-top: 5px;
+    height: 105px;
+    padding-top: 15px;
     
 }
 .dng_left_side{
@@ -382,4 +380,71 @@ nav li:hover{
     height: 2px;
     margin-left: 60px;
     background-color: red;
+}
+
+.sidenav_image{
+    width: 300px;
+    height: 160px;
+    object-fit: cover;
+    
+}
+/* .dengue_hover:hover > .sidenav_image{
+    transition: 0.3s;
+    background-image: url("../Img/dengue.jpg");
+} */
+.card_image_custom{
+    width: 40% !important;
+    height: auto;
+    object-fit: cover;
+}
+
+.card_image_customm{
+    width: 30% !important;
+    height: auto;
+    object-fit: cover;
+}
+.card_image_small{
+    width: 30% !important;
+    height: auto;
+    object-fit: cover;
+}
+
+.hidden{
+    opacity: 0;
+    transition: 0.6s;
+}
+.shown{
+    opacity: 1;
+    transition: 0.4s;
+    
+}
+
+#snimg1{
+    position: absolute;
+}
+#snimg2{
+    position: absolute;
+}
+#snimg3{
+    position: absolute;
+}
+#snimg4{
+    position: absolute;
+}
+#snimg5{
+    position: absolute;
+}
+
+.backgrrr{
+    height: 100%;
+    background-color: white;
+    padding-left: 30px !important;
+}
+
+.chikito-card{
+    font-size: 15px !important;
+}
+
+.noticiasExtra{
+    
 }

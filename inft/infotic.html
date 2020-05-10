@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Css/style.css">
+    <link rel="stylesheet" type="text/css" href="Css/materialize.css">
+    <script type="text/javascript" src="./js/app.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.js"
+        integrity="sha256-DrT5NfxfbHvMHux31Lkhxg42LY6of8TaYyK50jnxRnM=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <title>InfoTIC</title>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="/js/app.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<style>
+
+</style>
+
+<body>
+    <header>
+        <ul id="dropdown1" class="dropdown-content">
+            <li><a href="#!">one</a></li>
+            <li><a href="#!">two</a></li>
+            <li class="divider"></li>
+            <li><a href="#!">three</a></li>
+        </ul>
+        
+            <nav>
+                <div class="nav-wrapper">
+                    <ul id="nav-mobile" class="left hide-on-med-and-down">
+                        <li><a href="#dengue">Dengue</a></li>
+                        <li><a href="#esi">ESI</a></li>
+                        <li><a href="#corona">Corona</a></li>
+                        <li><a href="#cambios_climaticos">Cambios climaticos</a></li>
+                        
+                        
+                    </ul>
+                    <a href="#" data-target="slide-out" style="padding-left: 0px;" class="right sidenav-trigger show-on-large"><i class="material-icons">menu</i></a>
+                    <a href="#" class="brand-logo center">InfoTIC</a>
+
+                    
+                </div>
+                
+            </nav>
+            <ul id="slide-out" class="sidenav cutom">
+                <li><div class="user-view">
+                  <div class="background">
+                    <img class="shown sidenav_image" src="Img/Black_from_a_camera.jpg" id="snimg1">
+                    <img class="hidden sidenav_image" src="Img/dengue.jpg" id="snimg2">
+                    <img class="hidden sidenav_image" src="Img/esi.png" id="snimg3">
+                    <img class="hidden sidenav_image" src="Img/corona.jpg" id="snimg4">
+                    <img class="hidden sidenav_image" src="Img/cambios.jpg" id="snimg5">
+                  </div>
+                  <br>
+                  <span class="white-text name">Bruno Tievoli</span>
+                 <span class="white-text email">tievolib@gmail.com</span>
+                 
+                </div></li>
+                <li><a class="waves-effect dengue_hover" onmouseout="backtonormdng()" onmouseover="dengue_hover()" href="index_dengue.html">Dengue</a></li>
+                <li><a class="waves-effect" onmouseout="backtonormcrn()" onmouseover="crn_hover()" href="index_corona.html">Corona</a></li>
+                <li><a class="waves-effect" onmouseout="backtonormcam()" onmouseover="cam_hover()"href="index_cambios">Cambios climaticos</a></li>
+                <li><a class="waves-effect" onmouseout="backtonormesi()" onmouseover="esi_hover()" href="index_esi.html">ESI</a></li>
+                
+            </ul>   
+    </header>
+    <div class="noticia" data-aos="fade-right" id="dengue" data-aos-duration="1000"data-aos-delay="400">
+        <div class="col s12 m12">
+            <div class="card horizontal">
+
+                <img class="card_image_custom" src="Img/dengue.jpg">
+
+              <div class="card-stacked cutom">
+                <div class="card-content">
+                  <p>Dengue, el virus procediente de un mosquito, al que se le resto relevancia por la pandemia del coronavirus, pero tiene la misma infectividad y letalidad que antes.</p>
+                </div>
+                <div class="card-action">
+                  <a href="index_dengue.html">Ir a la noticia</a>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+    <div data-aos="fade-left" class="noticia" id="esi" data-aos-duration="1000" data-aos-delay="600">
+        <div class="col s12 m12">
+            <div class="card horizontal">
+
+                
+
+              <div class="card-stacked cutom">
+                <div class="card-content">
+                  <p>Educación sexual integral, un derecho que esta firmado pero quizás no aplicado.</p>
+                </div>
+                <div class="card-action">
+                  <a href="index_esi.html">Ir a la noticia</a>
+                </div>
+              </div>
+              <img class="card_image_custom" src="Img/esi.png">
+            </div>
+          </div>
+    </div>
+    <div class="noticia" data-aos="fade-right"  data-aos-duration="1000"data-aos-once="true" id="corona">
+        <div class="col s12 m12">
+            <div class="card horizontal">
+
+                <img class="card_image_customm" src="Img/corona.jpg">
+
+              <div class="card-stacked cutom">
+                <div class="card-content">
+                  <p>La pandemia que esta alocando al mundo entero. El COVID-19, llamado el "Nuevo Coronavirus", o simplemente Coronavirus, esta dejando en estado de alerta al mundo entero.</p>
+                </div>
+                <div class="card-action">
+                  <a href="index_corona.html">Ir a la noticia</a>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+    <div class="noticia" data-aos="fade-left" data-aos-duration="1000" data-aos-once="true" id="cambios_climaticos">
+        <div class="col s12 m12">
+            <div class="card horizontal">
+
+                
+              <div class="card-stacked cutom">
+                <div class="card-content">
+                  <p>Los cambios climaticos pueden ser considerados el mayor riesgo no solo para la
+                    humanidad, si no también para el propio planeta, a diferencia de enfermedades que afectan al ser
+                    humano.</p>
+                </div>
+                <div class="card-action">
+                  <a href="index_cambios.html">Ir a la noticia</a>
+                </div>
+              </div>
+              <img class="card_image_custom" src="Img/cambios.jpg">
+
+            </div>
+          </div>
+    </div>
+    
+</body>
+<script>
+    $(document).ready(function() {
+        $(".dropdown-trigger").dropdown();
+    })
+    $(document).ready(function(){
+        $('.sidenav').sidenav({
+
+            edge: 'right',
+            outDuration: 250,
+        });
+    });
+    
+    
+</script>
+<script>
+    AOS.init();
+  </script>
+<style>
+
+</style>
+
+</html>

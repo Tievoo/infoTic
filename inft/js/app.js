@@ -1,7 +1,4 @@
-function openNavDER() {
-    document.getElementById("mySidenav").style.width = "320px";
-    
-}
+
   
 function closeNavDER() {
     document.getElementById("mySidenav").style.width = "0";
@@ -23,3 +20,13 @@ window.onload = function time() {
     document.getElementById("hour").innerHTML = 'Fecha de hoy: ' + diaString + diaNum + ' de ' + mesString + ' de ' + año
 }
 
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems, options);
+  });
+var instance = M.Sidenav.getInstance(elem);
+
+function openNavDER() {
+    instance.open
+    
+}
